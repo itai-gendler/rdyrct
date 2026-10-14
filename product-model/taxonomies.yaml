@@ -1,0 +1,17 @@
+scenarioKinds:
+  - id: primary
+    name: Primary
+    description: The main way the Capability succeeds.
+    colorSlot: 1
+  - id: alternative
+    name: Alternative
+    description: Another way to the same kind of result, through a different route, place or Actor.
+    colorSlot: 2
+  - id: validation
+    name: Validation
+    description: The Product refuses the request because of who asks, what was entered, or the plan's limits.
+    colorSlot: 3
+  - id: edge
+    name: Edge
+    description: A conflict, an expiry, an unavailable dependency, or another case at the boundary.
+    colorSlot: 4
